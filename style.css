@@ -1,0 +1,56 @@
+/* <!-- hero section --> */
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 80vw;
+  margin: auto;
+}
+/* hero section */
+.hero {
+  height: 90vh;
+  position: relative;
+}
+.hero video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero > div {
+  position: absolute;
+  top: 30vh;
+  left: 10vw;
+
+  background: rgba(128, 128, 128, 0.379);
+  width: 550px;
+  padding: 1rem;
+  border-radius: 10px;
+  color: wheat;
+  backdrop-filter: blur(10px);
+}
+.down {
+  font-size: 5rem;
+  color: orangered;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: rotate(90deg);
+  animation: godown 1s infinite;
+}
+@keyframes godown {
+  0% {
+    bottom: 100px;
+    left: 50%;
+  }
+  100% {
+    bottom: 10px;
+    left: 50%;
+  }
+}
+
+/* <!-- navbar --> */
+/* <!-- paragraph --> */
+/* <!-- image --> */
