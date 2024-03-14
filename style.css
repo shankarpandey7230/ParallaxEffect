@@ -52,5 +52,72 @@ body {
 }
 
 /* <!-- navbar --> */
+nav {
+  background: black;
+  color: orange;
+  position: sticky;
+  top: 0;
+}
+nav > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 0.5rem 0;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+nav ul li {
+  list-style-type: none;
+}
 /* <!-- paragraph --> */
+
 /* <!-- image --> */
+
+[class^='img'] {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  background: rgba(100, 29, 45, 0.3);
+  color: white;
+  font-size: 2rem;
+  padding: 1.4rem 5rem;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.img1 {
+  background: url(./laptop-1839876_640.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img2 {
+  background: url(./a.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img3 {
+  background: url(./programming-2115930_640.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img4 {
+  background: url(./matrix-2953869_640.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
